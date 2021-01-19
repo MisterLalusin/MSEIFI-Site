@@ -1,0 +1,40 @@
+#charset "utf=8";
+
+html, body, div, h3, p, ul, li, img {
+    margin:0;
+	padding:0;
+}
+
+article, aside, figure, footer, header, hgroup,
+meta, nav, section { display;block}
+
+body {
+    background:black;
+}
+
+.background img {
+    position:fixed;left:0px;top:0px;
+	height:270%px;
+	width:270%;
+}
+
+.aldrinulo img {
+    position:fixed;left:0px;top:0px;
+	height:80px;
+	width:100%;
+	box-shadow:-1px 0px 7px black;
+}
+
+.seal img {
+    position:fixed;left:90px;top:5px;
+	height:73px;
+	width:70px;
+}
+
+.msei tt {
+    position:fixed;left:180px;top:21px;
+	font-size:30px;
+	color:white;
+	height:70px;
+	width:1200px;
+}

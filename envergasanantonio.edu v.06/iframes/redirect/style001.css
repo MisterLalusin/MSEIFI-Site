@@ -1,0 +1,33 @@
+#charset "utf=8";
+
+html, body, div, h3, p, ul, li, img {
+    margin:0;
+	padding:0;
+}
+
+article, aside, figure, footer, header, hgroup,
+meta, nav, section { display;block}
+
+body {
+    background:none;
+}
+
+.bilogjimuel {
+    position:fixed;
+	overflow:auto;
+	margin:auto;
+	top:240;
+	left:0;
+	right:0;
+    border: 16px solid lightblue;
+    border-top: 16px solid #DDDDDD;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

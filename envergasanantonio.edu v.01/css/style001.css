@@ -1,0 +1,31 @@
+#charset "utf=8";
+
+html, body, div, h3, p, ul, li, img {
+    margin:0;
+	padding:0;
+}
+
+article, aside, figure, footer, header, hgroup,
+meta, nav, section { display;block}
+
+body {
+    background:black;
+}
+
+.background img {
+    position:fixed;left:0px;top:0px;
+	height:100%px;
+	width:100%;
+}
+
+.aldrinulo img {
+    position:fixed;left:0px;top:0px;
+	height:80px;
+	width:100%;
+}
+
+.seal img {
+    position:fixed;left:110px;top:0px;
+	height:70px;
+	width:70px;
+}

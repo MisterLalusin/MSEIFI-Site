@@ -1,0 +1,32 @@
+#charset "utf=8";
+
+html, body, div, h3, p, ul, li, img {
+    margin:0;
+	padding:0;
+}
+
+article, aside, figure, footer, header, hgroup,
+meta, nav, section { display;block}
+
+body {
+    background:none;
+}
+
+.whatweoffer001 tt {
+	color:white;
+	font-size:18px;
+	text-shadow: 2px 2px black;
+}
+
+.whatweoffer001 img {
+    position:absolute;
+	overflow:auto;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+.whatweoffer001 li {
+	margin:695px;
+	list-style:none;
+}
